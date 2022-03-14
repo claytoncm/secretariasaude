@@ -1,0 +1,59 @@
+/* Geral */
+
+*{
+	outline: 0 !important;
+}
+
+body{
+	background: #efefef;
+	font-family: 'Roboto', sans-serif;
+}
+
+img{
+	height: auto;
+	max-width: 100%;
+}
+
+/* Header */
+
+header{
+	background: #001c90;
+	color: #fff;
+	padding: 15px 0;
+}
+
+.brand img{
+	max-height: 70px;
+}
+
+/* Comunicados */
+
+.comunicados .btn-group .btn-secondary{
+	background: #fff;
+	border-color: #fff;
+	color: #001c90;
+	text-align: left;
+}
+
+.comunicados .btn-group{
+	width: 100%;
+}
+
+.acesse{
+	color: #001c90;
+	font-size: 14px;
+	margin: 0 0 5px;
+}
+
+/* Footer */
+
+.footer{
+	background: #001c90;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.footer .copyright{
+	margin: 0;
+}
