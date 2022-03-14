@@ -26,16 +26,54 @@
 	</header>
 	<main class="container-xxl">
 		<div class="row mt-3 mb-3">
+			<!-- Carousel - Inicio-->
 			<div class="col-12 col-md-9 destaque">
-				<img src="img/banner-destaque.jpg" class="rounded">
+				<div id="carouselDestaque" class="carousel slide" data-bs-ride="carousel">
+				  <div class="carousel-indicators">
+				    <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#carouselDestaque" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  </div>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="img/banner-destaque.jpg" class="d-block w-100 rounded" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="img/banner-destaque.jpg" class="d-block w-100 rounded" alt="...">
+				    </div>
+				    <div class="carousel-item">
+				      <img src="img/banner-destaque.jpg" class="d-block w-100 rounded" alt="...">
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselDestaque" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselDestaque" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>				
 			</div>
+			<!-- Carousel - Fim-->
 
-			<div class="col-12 col-md-3 rounded comunicados">
+			<div class="col-12 col-md-3 rounded comunicados d-flex flex-column justify-content-between">
 				<p class="acesse">Acesse:</p>
 
 				<div class="btn-group shadow-sm mb-3">
 				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-				    Dropdown
+				    Secretaria-executiva de Atenção Básica, Especialidades e Vigilância em Saúde
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <li><a class="dropdown-item" href="#">Coordenadoria de Atenção Básica (CAB)</a></li>
+				    <li><a class="dropdown-item" href="#">Departamento de Atenção Especializada</a></li>
+				    <li><a class="dropdown-item" href="#">Coordenadoria de Vigilância em Saúde (Covisa)</a></li>
+				  </ul>
+				</div>
+
+				<div class="btn-group shadow-sm mb-3">
+				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+				    Secretaria-executiva de Atenção Hospitalar
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 				    <li><a class="dropdown-item" href="#">Menu item</a></li>
@@ -46,7 +84,7 @@
 
 				<div class="btn-group shadow-sm mb-3">
 				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-				    Dropdown
+				    Secretaria-executiva de Gestão Administrativa e Integrada
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 				    <li><a class="dropdown-item" href="#">Menu item</a></li>
@@ -57,7 +95,7 @@
 
 				<div class="btn-group shadow-sm mb-3">
 				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
-				    Dropdown
+				    Secretaria Executiva de Regulação, Monitoramento, Avaliação e Parcerias
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 				    <li><a class="dropdown-item" href="#">Menu item</a></li>
@@ -65,7 +103,18 @@
 				    <li><a class="dropdown-item" href="#">Menu item</a></li>
 				  </ul>
 				</div>
-				<h2>Comunicados</h2>
+
+				<div class="btn-group shadow-sm mb-3">
+				  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+				    Coordenadoria Jurídica (Cojur)
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <li><a class="dropdown-item" href="#">Departamento de Demandas Judiciais em Saúde e Atendimento a Órgãos de Controle</a></li>
+				    <li><a class="dropdown-item" href="#">Departamento de Assessoramento Jurídico</a></li>
+				    
+				  </ul>
+				</div>
+
 			</div>
 		</div>
 	</main>
@@ -75,6 +124,6 @@
 	</footer>
 
 	<script src="assets/dist/js/bootstrap.bundle.min.js"></script>
-	
+
 </body>
 </html>

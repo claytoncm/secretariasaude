@@ -26,6 +26,17 @@ header{
 	max-height: 70px;
 }
 
+/* Slider */
+
+#carouselDestaque .carousel-indicators [data-bs-target]{
+	background-color: #000;
+	opacity: 1;
+}
+
+#carouselDestaque .carousel-indicators .active{
+	background-color: #001c90;
+}
+
 /* Comunicados */
 
 .comunicados .btn-group .btn-secondary{
@@ -33,6 +44,7 @@ header{
 	border-color: #fff;
 	color: #001c90;
 	text-align: left;
+	white-space: normal;
 }
 
 .comunicados .btn-group{
