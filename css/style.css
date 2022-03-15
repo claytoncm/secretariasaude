@@ -1,3 +1,28 @@
+/* Fontes */
+@font-face {
+    font-family: 'Flexo';
+    src: url('../fonts/Flexo-Demi.eot');
+    src: url('../fonts/Flexo-Demi.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Flexo-Demi.woff2') format('woff2'),
+        url('../fonts/Flexo-Demi.woff') format('woff'),
+        url('../fonts/Flexo-Demi.svg#Flexo-Demi') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Flexo';
+    src: url('../fonts/Flexo-Medium.eot');
+    src: url('../fonts/Flexo-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Flexo-Medium.woff2') format('woff2'),
+        url('../fonts/Flexo-Medium.woff') format('woff'),
+        url('../fonts/Flexo-Medium.svg#.Flexo-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Geral */
 
 *{
@@ -12,6 +37,16 @@ body{
 img{
 	height: auto;
 	max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	font-family: 'Flexo', sans-serif;
+	font-weight: 600;
 }
 
 /* Header */
@@ -70,19 +105,20 @@ header{
 .acesse{
 	color: #001c90;
 	font-size: 14px;
-	margin: 0 0 5px;
+	margin: 5px 0;
 }
 
 /* Boletins */
 
-.boletins{
-
+.boletins h3 img{
+	max-height: 60px;
+	width: auto;
 }
 
 /* Youtube */
 
 .youtube{
-	
+
 }
 
 /* Footer */
