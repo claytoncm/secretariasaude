@@ -26,6 +26,16 @@ header{
 	max-height: 70px;
 }
 
+.nav-principal{
+	justify-content: flex-start;
+}
+
+.nav-principal.navbar-dark .navbar-toggler{
+	border-color: rgba(255, 255, 255, 0);
+	color: rgba(255, 255, 255, 1);
+	box-shadow: none;
+}
+
 /* Slider */
 
 #carouselDestaque .carousel-indicators [data-bs-target]{
@@ -37,11 +47,17 @@ header{
 	background-color: #001c90;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+	filter: invert(100%);
+}
+
 /* Comunicados */
 
 .comunicados .btn-group .btn-secondary{
 	background: #fff;
 	border-color: #fff;
+	box-shadow: none;
 	color: #001c90;
 	text-align: left;
 	white-space: normal;
@@ -55,6 +71,18 @@ header{
 	color: #001c90;
 	font-size: 14px;
 	margin: 0 0 5px;
+}
+
+/* Boletins */
+
+.boletins{
+
+}
+
+/* Youtube */
+
+.youtube{
+	
 }
 
 /* Footer */
