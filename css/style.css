@@ -156,9 +156,33 @@ header{
 	color: #055855;
 }
 
-.boletins h3 img{
+.boletins span,
+.boletins .data{
+	font: 16px 'Flexo', sans-serif;
+	font-weight: 500;
+}
+
+.boletins h3{
+	font: 26px 'Flexo', sans-serif;
+	font-weight: 500;
+}
+
+.boletins img.logo-boletim{
 	max-height: 60px;
 	width: auto;
+}
+
+.boletins .descricao{
+	color: #000;
+	font-size: 16px;
+}
+
+.boletins .btn.download{
+	background: #055855;
+	color: #fff;
+	font: 18px 'Flexo', sans-serif;
+	font-weight: 600;
+	width: 100%;
 }
 
 /* Youtube */
@@ -215,7 +239,8 @@ header{
 	font-weight: 500;
 }
 
-.fala-gestor .descricao{
+.fala-gestor .descricao,
+.eventos .descricao{
 	color: #000;
 }
 
@@ -227,8 +252,17 @@ header{
 
 /* Eventos */
 
-.eventos{
+.eventos,
+.eventos a{
 	color: #ff8400;
+}
+
+.eventos .data,
+.eventos .local{
+	color: #ff8400;
+	font: 18px 'Flexo', sans-serif;
+	font-weight: 500;
+	margin: 0;
 }
 
 .eventos h2 img{
