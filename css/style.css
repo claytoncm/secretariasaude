@@ -69,6 +69,10 @@ a.ver-todos{
 	width: 100%;
 }
 
+a.ver-mais{
+	font: 18px 'Flexo', sans-serif;
+}
+
 /* Header */
 
 header{
@@ -89,6 +93,13 @@ header{
 	border-color: rgba(255, 255, 255, 0);
 	color: rgba(255, 255, 255, 1);
 	box-shadow: none;
+}
+
+/* Usuários */
+
+.user{
+	font: 20px 'Flexo', sans-serif;
+	font-weight: 600;
 }
 
 /* Slider */
@@ -152,6 +163,15 @@ header{
 
 /* Youtube */
 
+.youtube h2{
+	align-items: flex-start;
+	display: flex;
+}
+
+.youtube h2 img{
+	margin-right: 15px;
+}
+
 .youtube .programas{
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -180,6 +200,41 @@ header{
 
 .especial-saude img{
 	max-width: 120px;
+}
+
+/* Fala Gestor */
+
+.fala-gestor,
+.fala-gestor a{
+	color: #001c90;
+}
+
+.fala-gestor .cargo{
+	color: #001c90;
+	font: 18px 'Flexo', sans-serif;
+	font-weight: 500;
+}
+
+.fala-gestor .descricao{
+	color: #000;
+}
+
+.fala-gestor h2 img{
+	margin-right: 15px;
+	max-height: 40px;
+	width: auto;
+}
+
+/* Eventos */
+
+.eventos{
+	color: #ff8400;
+}
+
+.eventos h2 img{
+	margin-right: 15px;
+	max-height: 40px;
+	width: auto;
 }
 
 /* Footer */
