@@ -96,6 +96,11 @@ header{
 	padding-left: 0;
 }
 
+.nav-principal .dropdown-item{
+	color: #001c90;
+	font: 18px 'Flexo', sans-serif;
+}
+
 /* Redes Sociais */
 
 .redes-sociais .icones{

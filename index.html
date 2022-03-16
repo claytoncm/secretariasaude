@@ -11,13 +11,13 @@
 </head>
 <body>
 
-	<header>
+	<header class="fixed-top">
 		<div class="container-xxl">
 			<div class="row d-flex align-items-center">
 
 				<div class="col-9 col-md-4 logo">
 				    <nav class="navbar navbar-dark nav-principal">
-				    	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Toggle navigation">
+				    	<button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Toggle navigation">
 					        <span class="navbar-toggler-icon"></span>
 					    </button>
 
@@ -25,45 +25,42 @@
 							<img src="img/logo-pmsp.svg">
 						</a>
 
-					      <div class="collapse navbar-collapse" id="navbarsPrincipal">
-					        <ul class="navbar-nav me-auto mb-2">
-					          <li class="nav-item">
-					            <a class="nav-link active" aria-current="page" href="#">Home</a>
-					          </li>
-					          <li class="nav-item">
-					            <a class="nav-link" href="#">Link</a>
-					          </li>
-					          <li class="nav-item">
-					            <a class="nav-link disabled">Disabled</a>
-					          </li>
-					          <li class="nav-item dropdown">
-					            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
-					            <ul class="dropdown-menu" aria-labelledby="dropdown01">
-					              <li><a class="dropdown-item" href="#">Action</a></li>
-					              <li><a class="dropdown-item" href="#">Another action</a></li>
-					              <li><a class="dropdown-item" href="#">Something else here</a></li>
-					            </ul>
-					          </li>
-					        </ul>
-
-					    </div>
+					    <ul class="dropdown-menu dropdown-menu-start text-small shadow" aria-labelledby="navbarsPrincipal">
+							<li><a class="dropdown-item" href="#">Home</a></li>
+							<li><a class="dropdown-item" href="#">Comunicados</a></li>
+							<li><a class="dropdown-item" href="#">Boletins</a></li>
+							<li><a class="dropdown-item" href="#">Nossos programas</a></li>
+							<li><a class="dropdown-item" href="#">Especial Saúde</a></li>
+							<li><a class="dropdown-item" href="#">Fala Gestor</a></li>
+							<li><a class="dropdown-item" href="#">Eventos</a></li>
+						</ul>
 					</nav>
 					
 				</div>
 
 				<div class="col-3 col-md-8 text-right"> 
 
-					<div class="row">
+					<div class="row justify-content-end">
 
 						<div class="col redes-sociais d-none d-md-flex align-items-center justify-content-end">
-							<img src="img/facebook_icon.png" class="icones">
-							<img src="img/instagram_icon.png" class="icones">
-							<img src="img/youtube_icon.png" class="icones">
-							<img src="img/twitter_icon.png" class="icones">
-							<img src="img/tiktok_icon.png" class="icones">
+							<a href="https://www.facebook.com/saudeprefsp" target="_blank">
+								<img src="img/facebook_icon.png" class="icones">
+							</a>
+							<a href="https://www.instagram.com/saudeprefsp/" target="_blank">
+								<img src="img/instagram_icon.png" class="icones">
+							</a>
+							<a href="https://www.youtube.com/c/saudeprefsp" target="_blank">
+								<img src="img/youtube_icon.png" class="icones">
+							</a>
+							<a href="https://twitter.com/saudeprefsp" target="_blank">
+								<img src="img/twitter_icon.png" class="icones">
+							</a>
+							<a href="#" target="_blank">
+								<img src="img/tiktok_icon.png" class="icones">
+							</a>
 						</div>				
 
-						<div class="col user text-end">
+						<div class="col-auto user text-end">
 							<div class="flex-shrink-0 dropdown">
 					          <a href="#" class="d-block link-light text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">
 					          	<div class="d-none d-md-inline-block p-1">
@@ -186,8 +183,8 @@
 
 			<h2>Boletins</h2>
 
-			<div class="col-12 col-md-8 h-100">
-				<div class="row g-0 bg-light border rounded shadow-sm p-3">
+			<div class="col-12 col-md-8 pb-3">
+				<div class="row g-0 bg-light border rounded shadow-sm p-3 h-100">
 					<div class="col-12 pb-3">
 						<img src="img/saude-mais-perto.png" class="logo-boletim">
 					</div>
@@ -226,7 +223,8 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-12 col-md-4">
+
+			<div class="col-12 col-md-4 pb-3">
 				<div class="row g-0 bg-light border rounded shadow-sm p-3 h-100">
 					<div class="col-12 pb-3">
 						<img src="img/conecta.png" class="logo-boletim">
@@ -260,28 +258,44 @@
 				<div class="row g-0 programas">
 
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/1.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YEgIgxDhcGrhKIfhEbfJ4hh" target="_blank">
+							<img src="img/1.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/2.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YGil-5XgKXH83hY90KrqwOt" target="_blank">
+							<img src="img/2.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/3.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YEb_Z5MHeK6WDW5XN-Lc_5A" target="_blank">
+							<img src="img/3.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/4.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YFYkhDP1yVjzInW8RuH3PVm" target="_blank">
+							<img src="img/4.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/5.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YFDe5ro82xF8WjKfwO4Ow6K" target="_blank">
+							<img src="img/5.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/6.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YFvvaYzoBrIlwHy70ipmxK2" target="_blank">
+							<img src="img/6.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/7.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YGNihLzDianBmEGfHv1zjct" target="_blank">
+							<img src="img/7.jpg" class="w-100">
+						</a>
 					</div>
 					<div class="col-6 col-md-3 p-3">
-						<img src="img/8.jpg" class="w-100">
+						<a href="https://www.youtube.com/playlist?list=PLYEqQbVuP4YEC8Uya7F_bGqit7CHWE8qM" target="_blank">
+							<img src="img/8.jpg" class="w-100">
+						</a>
 					</div>
 				</div>
 
@@ -336,7 +350,7 @@
 
 			<!-- Fala Gestor - Início -->
 
-			<div class="col-12 col-md-6 mb-3 mt-3 h-100 fala-gestor">
+			<div class="col-12 col-md-6 mb-3 mt-3 fala-gestor">
 
 				<h2><img src="img/fala-gestor.png">Fala Gestor</h2>
 
@@ -358,7 +372,7 @@
 
 			<!-- Eventos - Início -->
 
-			<div class="col-12 col-md-6 mb-3 mt-3 h-100 eventos">
+			<div class="col-12 col-md-6 mb-3 mt-3 eventos">
 
 				<h2><img src="img/eventos.png">Eventos</h2>
 
@@ -371,8 +385,10 @@
 						<a href="#" class="ver-mais">Ver detalhes do evento</a>
 					</div>
 
-					<div class="col-12 col-md-6 p-3 shadow-sm d-flex align-items-center justify-content-center">						
-				        Calendário com todos eventos
+					<div class="col-12 col-md-6 p-3">
+						<div class="border shadow-sm h-100 w-100 d-flex align-items-center justify-content-center rounded">
+					        Calendário com todos eventos
+					    </div>
 					</div>
 				</div>
 			</div>
