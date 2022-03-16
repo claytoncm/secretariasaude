@@ -61,6 +61,10 @@ h6{
 	font-weight: 600;
 }
 
+a:hover{
+	text-decoration: none;
+}
+
 a.ver-todos{
 	display: block;
 	font: 18px 'Flexo', sans-serif;
@@ -71,6 +75,7 @@ a.ver-todos{
 
 a.ver-mais{
 	font: 18px 'Flexo', sans-serif;
+	font-weight: 600;
 }
 
 /* Header */
