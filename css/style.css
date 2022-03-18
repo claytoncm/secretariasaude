@@ -117,6 +117,12 @@ header{
 	padding: 5px;
 }
 
+/* Busca */
+
+.bi-search{
+	color: #fff;
+}
+
 /* Usuários */
 
 .user{
