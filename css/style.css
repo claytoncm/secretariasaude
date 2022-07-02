@@ -97,6 +97,8 @@ header{
 }
 
 .nav-principal{
+	align-items: center;
+	display: flex;
 	justify-content: space-between;
 }
 
@@ -113,9 +115,29 @@ header{
 	color:  #000;
 }
 
-.menu-horizontal .nav-principal .dropdown-item{
+.menu-horizontal .nav-principal .menu-item{
 	color: #001c90;
 	font: 18px 'Flexo', sans-serif;
+	text-decoration: none;
+}
+
+.menu-horizontal .nav-principal .menu-item:hover{
+	color: #000;
+}
+
+.menu-horizontal .nav-principal .navbar-toggler-name{
+	display: block;
+	padding-left: .5rem;
+}
+
+.menu-horizontal .nav-principal ul{
+	margin: 0;
+}
+
+.menu-horizontal .nav-principal li{
+	display: inline-flex;
+	list-style: none;
+	padding: 10px;
 }
 
 /* Redes Sociais */
@@ -187,6 +209,10 @@ header{
 .comunicados .dropdown-item{
 	font-family: 'Flexo', sans-serif;
 	font-weight: 500;
+}
+
+.comunicados .comunicado-thumbnail{
+	overflow: hidden;
 }
 
 .comunicados a{

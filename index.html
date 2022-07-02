@@ -56,10 +56,10 @@
 					            <img src="https://github.com/mdo.png" alt="Nome do Usuário" width="50" height="50" class="rounded-circle">
 					          </a>
 					          <ul class="dropdown-menu dropdown-menu-end text-small shadow" aria-labelledby="dropdownUser2">
-					            <li><a class="dropdown-item" href="#">Editar perfil...</a></li>
-					            <li><a class="dropdown-item" href="#">Configurações</a></li>
+					            <li><a class="menu-item" href="#">Editar perfil...</a></li>
+					            <li><a class="menu-item" href="#">Configurações</a></li>
 					            <li><hr class="dropdown-divider"></li>
-					            <li><a class="dropdown-item" href="#">Sair</a></li>
+					            <li><a class="menu-item" href="#">Sair</a></li>
 					          </ul>
 					        </div>
 						</div>
@@ -71,24 +71,25 @@
 	<div class="menu-horizontal">
 		<div class="container-xxl">
 			 <nav class="navbar navbar-light nav-principal">
-		    	<button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Toggle navigation">
-			        <span class="navbar-toggler-icon"></span>Navegue pelas secretarias
+		    	<button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Mega Menu">
+			        <span class="navbar-toggler-icon"></span>
+			        <span class="navbar-toggler-name">Navegue pelas secretarias</span>
 			    </button>
 
-			    <ul class=" text-small shadow">
-					<li><a class="dropdown-item" href="#">Home</a></li>
-					<li><a class="dropdown-item" href="#">Comunicados</a></li>
-					<li><a class="dropdown-item" href="#">Boletins</a></li>
-					<li><a class="dropdown-item" href="#">Nossos programas</a></li>
-					<li><a class="dropdown-item" href="#">Especial Saúde</a></li>
-					<li><a class="dropdown-item" href="#">Fala Gestor</a></li>
-					<li><a class="dropdown-item" href="#">Eventos</a></li>
+			    <ul class="text-small">
+					<li><a class="menu-item" href="#">Home</a></li>
+					<li><a class="menu-item" href="#">Comunicados</a></li>
+					<li><a class="menu-item" href="#">Boletins</a></li>
+					<li><a class="menu-item" href="#">Nossos programas</a></li>
+					<li><a class="menu-item" href="#">Especial Saúde</a></li>
+					<li><a class="menu-item" href="#">Fala Gestor</a></li>
+					<li><a class="menu-item" href="#">Eventos</a></li>
 				</ul>
 			</nav>
 		</div>
 	</div>
-	<div class="mega-menu dropdown-menu dropdown-menu-start"aria-labelledby="navbarsPrincipal">
-
+	<div class="mega-menu dropdown-menu dropdown-menu-start" aria-labelledby="navbarsPrincipal" id="navbarsPrincipal">
+dddd
 	</div>
 	<main class="container-xxl">
 		<div class="row mt-3 mb-3">
@@ -127,7 +128,12 @@
 			<div class="col-12 col-md-3 rounded comunicados bg-light shadow-sm p-3">
 				<h2>Comunicados</h2>
 
-				
+				<div class="comunicado-thumbnail mb-1">
+					<a class="link-comunicado" href="#">
+						<img src="img/comunicado-saude.jpg">
+					</a>
+				</div>
+
 				<a href="#" class="ver-todos">Ver todos</a>
 
 			</div>
