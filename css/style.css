@@ -90,18 +90,30 @@ header{
 	max-height: 70px;
 }
 
+/* Menu Horizontal */
+
+.menu-horizontal{
+	background: #fff;
+}
+
 .nav-principal{
-	justify-content: flex-start;
+	justify-content: space-between;
 }
 
-.nav-principal.navbar-dark .navbar-toggler{
-	border-color: rgba(255, 255, 255, 0);
-	color: rgba(255, 255, 255, 1);
-	box-shadow: none;
-	padding-left: 0;
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler{
+	align-items: center;
+	border-color: #fff;
+	color:  #001c90;
+	display: flex;
+	text-transform: uppercase;
 }
 
-.nav-principal .dropdown-item{
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler:hover{
+	border-color: #000;
+	color:  #000;
+}
+
+.menu-horizontal .nav-principal .dropdown-item{
 	color: #001c90;
 	font: 18px 'Flexo', sans-serif;
 }
