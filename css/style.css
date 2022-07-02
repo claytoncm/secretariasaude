@@ -161,7 +161,7 @@ header{
 	width: 100%;
 }
 
-.comunicados .acesse{
+.comunicados h2{
 	color: #001c90;
 	font-family: 'Flexo', sans-serif;;
 	margin: 5px 0;
@@ -175,6 +175,10 @@ header{
 .comunicados .dropdown-item{
 	font-family: 'Flexo', sans-serif;
 	font-weight: 500;
+}
+
+.comunicados a{
+	color: #001c90;
 }
 
 /* Boletins */
