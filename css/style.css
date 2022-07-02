@@ -110,9 +110,12 @@ header{
 	text-transform: uppercase;
 }
 
-.menu-horizontal .nav-principal.navbar-light .navbar-toggler:hover{
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler:hover,
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler:focus{
 	border-color: #000;
+	box-shadow: 0 !important;
 	color:  #000;
+	outline: 0 !important;
 }
 
 .menu-horizontal .nav-principal .menu-item{
@@ -138,6 +141,12 @@ header{
 	display: inline-flex;
 	list-style: none;
 	padding: 10px;
+}
+
+/* Mega Menu */
+
+.mega-menu{
+	background: #fff;
 }
 
 /* Redes Sociais */
@@ -180,6 +189,11 @@ header{
 	filter: invert(100%);
 }
 
+.carousel-control-next, 
+.carousel-control-prev{
+	width: 5%;
+}
+
 /* Comunicados */
 
 .comunicados .btn-group .btn-secondary{
@@ -212,6 +226,7 @@ header{
 }
 
 .comunicados .comunicado-thumbnail{
+	height: 330px;
 	overflow: hidden;
 }
 
