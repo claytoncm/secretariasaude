@@ -111,9 +111,10 @@ header{
 }
 
 .menu-horizontal .nav-principal.navbar-light .navbar-toggler:hover,
-.menu-horizontal .nav-principal.navbar-light .navbar-toggler:focus{
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler:focus,
+.menu-horizontal .nav-principal.navbar-light .navbar-toggler:active{
 	border-color: #000;
-	box-shadow: 0 !important;
+	box-shadow: none;
 	color:  #000;
 	outline: 0 !important;
 }
@@ -166,11 +167,19 @@ header{
 	color: #fff;
 }
 
+.search{
+	background: #fff;
+}
+
 /* Usuários */
 
 .user{
 	font: 20px 'Flexo', sans-serif;
 	font-weight: 600;
+}
+
+.user .rounded-circle{
+	max-height: 50px;
 }
 
 /* Slider */
@@ -182,6 +191,11 @@ header{
 
 #carouselDestaque .carousel-indicators .active{
 	background-color: #001c90;
+}
+
+#carouselDestaque .carousel-item{
+	max-height: 440px;
+	overflow: hidden;
 }
 
 .carousel-control-prev-icon,
@@ -309,6 +323,11 @@ header{
 
 .especial-saude img{
 	max-width: 120px;
+}
+
+.especial-saude .link-especial-saude{
+	color: #3fbb00;
+	text-decoration: none;
 }
 
 /* Fala Gestor */
