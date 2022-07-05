@@ -78,6 +78,49 @@ a.ver-mais{
 	font-weight: 600;
 }
 
+/* Bootstrap - 5 colunas */
+
+.col-15 {
+  flex: 0 0 auto;
+  width: 20%;
+}
+
+@media (min-width: 768px){
+
+    .col-md-15 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .col-lg-15 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 1200px){
+
+    .col-xl-15 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
+@media (min-width: 1400px){
+
+    .col-xxl-15 {
+        flex: 0 0 auto;
+        width: 20%;
+    }
+
+}
+
 /* Header */
 
 header{
@@ -148,6 +191,17 @@ header{
 
 .mega-menu{
 	background: #fff;
+}
+
+.mega-menu .menu-level-2 > li{
+	display: inline-flex;
+}
+
+.mega-menu .nav-item{
+	align-items: center;
+	display: flex;
+	font-size: 13px;
+	text-transform: uppercase;
 }
 
 /* Redes Sociais */
