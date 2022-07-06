@@ -139,17 +139,21 @@ header{
 	background: #fff;
 }
 
-.nav-principal{
+.nav-principal #navbarSupportedContent{
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
 
-.menu-horizontal .nav-principal.navbar-light .navbar-toggler{
+.nav-principal #navbarSupportedContent{
+
+}
+
+.menu-horizontal .navbar-light .navbar-toggler{
 	align-items: center;
 	border-color: #fff;
 	color:  #001c90;
-	display: flex;
+	justify-content: space-between;
 	text-transform: uppercase;
 }
 
@@ -424,6 +428,7 @@ header{
 }
 
 .especial-saude img{
+	height: 120px;
 	max-width: 120px;
 }
 
