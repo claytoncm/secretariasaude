@@ -157,13 +157,8 @@ header{
 
 /* Menu Horizontal */
 
-.menu-horizontal{
-	background: #fff;
-}
 
 .nav-principal #navbarSupportedContent{
-	align-items: center;
-	display: flex;
 	justify-content: space-between;
 }
 
@@ -171,6 +166,13 @@ header{
 
 }
 
+.menu-horizontal{
+	background: #fff;
+}
+
+.menu-horizontal .menu-level-2 a{
+	color: #000 !important;
+}
 .menu-horizontal .navbar-light .navbar-toggler{
 	align-items: center;
 	border-color: #001c90;
