@@ -178,7 +178,6 @@ header{
 	border-color: #001c90;
 	color:  #001c90;
 	justify-content: space-between;
-	text-transform: uppercase;
 }
 
 .menu-horizontal .nav-principal.navbar-light .navbar-toggler:hover,
@@ -217,32 +216,30 @@ header{
 
 /* Mega Menu */
 
+.menu-active header, 
+.menu-active .menu-horizontal, 
+.menu-active main,
+.menu-active footer {
+    -webkit-transform: translateX(300px);
+    -moz-transform: translateX(300px);
+    -ms-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+.menu-active .mega-menu{
+	-webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+}
+
 .mega-menu{
-	background: rgba(0, 0, 0, .05);
+	background: #e3e3e3;
+	left: 0;
 	padding: 15px;
-}
-
-.mega-menu .nav-tabs{
-	border: 0;
-}
-
-.mega-menu button{
-	border-bottom: 1px solid rgba(0, 0, 0, .1) !important;
-	border-radius: 0 !important;
-	color: #001c90;
-	font-size: 12px !important;
-	font-weight: 600;
-	text-align: center;
-}
-
-.mega-menu button.nav-link:hover{
-	color: #000;
-}
-
-.mega-menu button.nav-link.active{
-	background: #d6d6d6;
-	border-bottom: rgba(0, 0, 0, 1) !important;
-	color: #000;
+	position: absolute;
+	top: 0;
+	width: 300px;
 }
 
 .mega-menu ul{
@@ -253,6 +250,47 @@ header{
 	list-style: none;
 }
 
+.mega-menu li a{
+	color: #000;
+	text-decoration: none;
+}
+
+.mega-menu li a:hover{
+	color: #001c90;
+}
+
+.mega-menu .menu-level-0{
+	position: relative;
+}
+
+.mega-menu .menu-level-0 li{
+	border-left: 2px solid rgba(0, 0, 0, 0);
+	border-right: 2px solid rgba(0, 0, 0, 0);
+	display: inline;
+	justify-content: center;	
+}
+
+.mega-menu .menu-level-0 a.nav-link{
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
+	border-radius: 0 !important;
+	color: #001c90;
+	font-size: 13px !important;
+	font-weight: 600;
+	text-align: center;
+	width: 100%;
+}
+
+.mega-menu .menu-level-0 a.nav-link:hover{
+	border-color: #000;
+	color: #000;
+}
+
+.mega-menu .menu-level-0 a.nav-link.active{
+	background: #d6d6d6;
+	border-bottom: rgba(0, 0, 0, 1) !important;
+	color: #000;
+}
+
 .mega-menu .menu-level-1 > li{
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	font-size: 13px;
@@ -260,6 +298,7 @@ header{
 	margin: 15px 0;
 	padding-bottom: 10px;
 	text-transform: uppercase;
+	width: 100%;
 }
 
 .mega-menu .menu-level-2 > li{
@@ -282,9 +321,8 @@ header{
 .mega-menu .nav-link{
 	align-items: center;
 	display: flex;
-	font-size: 13px;
+	font-size: 15px;
 	justify-content: center;
-	text-transform: uppercase;
 }
 
 /* Redes Sociais */
