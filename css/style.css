@@ -295,11 +295,11 @@ footer {
 	width: 100%;	
 }
 
-.mega-menu .menu-level-0 a.nav-link{
+.mega-menu .menu-level-0 > li > a.nav-link{
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	border-radius: 0 !important;
 	color: #001c90;
-	font-size: 13px !important;
+	font-size: 13px;
 	font-weight: 600;
 	padding: 5px 0;
 	width: 100%;
@@ -326,6 +326,11 @@ footer {
 	width: 100%;
 }
 
+.mega-menu .menu-level-1 > li a.nav-link{
+	font-size: 13px;
+	padding: 5px 0;
+}
+
 .mega-menu .menu-level-2 > li{
 	font-weight: 500;
 	padding-bottom: 5px;
@@ -341,6 +346,16 @@ footer {
 .mega-menu .menu-level-3 > li:before{
 	content: "-";
 	padding-right: 5px;
+}
+
+.mega-menu .menu-level-1,
+.mega-menu .menu-level-2,
+.mega-menu .menu-level-3{
+	display: none;
+}
+
+.mega-menu .ativo + ul{
+	display: block;
 }
 
 .mega-menu .nav-link{
