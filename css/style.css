@@ -216,6 +216,20 @@ header{
 
 /* Mega Menu */
 
+header, 
+.menu-horizontal, 
+main,
+footer {
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    transition: all .25s linear;
+}
+
+.menu-active{
+	overflow-x: hidden;
+}
+
 .menu-active header, 
 .menu-active .menu-horizontal, 
 .menu-active main,
@@ -224,6 +238,10 @@ header{
     -moz-transform: translateX(300px);
     -ms-transform: translateX(300px);
     transform: translateX(300px);
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    transition: all .25s linear;
 }
 
 .menu-active .mega-menu{
@@ -235,11 +253,21 @@ header{
 
 .mega-menu{
 	background: #e3e3e3;
+	height: 100%;
 	left: 0;
+	overflow: auto;
 	padding: 15px;
-	position: absolute;
+	position: fixed;
 	top: 0;
 	width: 300px;
+	-webkit-transform: translateX(-280px);
+    -moz-transform: translateX(-280px);
+    -ms-transform: translateX(-280px);
+    transform: translateX(-280px);
+    -webkit-transition: all .25s linear;
+    -moz-transition: all .25s linear;
+    -ms-transition: all .25s linear;
+    transition: all .25s linear;
 }
 
 .mega-menu ul{
@@ -264,10 +292,7 @@ header{
 }
 
 .mega-menu .menu-level-0 li{
-	border-left: 2px solid rgba(0, 0, 0, 0);
-	border-right: 2px solid rgba(0, 0, 0, 0);
-	display: inline;
-	justify-content: center;	
+	width: 100%;	
 }
 
 .mega-menu .menu-level-0 a.nav-link{
@@ -276,7 +301,7 @@ header{
 	color: #001c90;
 	font-size: 13px !important;
 	font-weight: 600;
-	text-align: center;
+	padding: 5px 0;
 	width: 100%;
 }
 
@@ -319,10 +344,8 @@ header{
 }
 
 .mega-menu .nav-link{
-	align-items: center;
 	display: flex;
 	font-size: 15px;
-	justify-content: center;
 }
 
 /* Redes Sociais */
@@ -355,6 +378,15 @@ header{
 
 .user .rounded-circle{
 	max-height: 50px;
+}
+
+.user .dropdown-menu a{
+	color: #001c90;
+	text-decoration: none;
+}
+
+.user .dropdown-menu a:hover{
+	color: #000;
 }
 
 /* Slider */
