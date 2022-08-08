@@ -449,9 +449,11 @@
 						<img src="img/foto-gestor.jpg" class="w-100" alt="Nome do Gestor">
 					</div>
 
-					<div class="col-12 col-md-7 p-3">
+					<div class="col-12 col-md-7 p-3 d-flex flex-column justify-content-between">
+						<div class="header-gestor">
 						<h3>Nome do Gestor</h3>
-						<p class="cargo">Cargo do Gestor</p>
+							<p class="cargo">Cargo do Gestor</p>
+						</div>
 						<p class="descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining </p>
 						<a href="#" class="ver-mais">Leia o texto completo</a>
 					</div>
@@ -470,18 +472,26 @@
 					<div class="col-12 col-md-6 p-3 carousel slide" data-bs-ride="carousel">
 						<div class="carousel-inner">
 							<div class="carousel-item evento-detalhes active">
-								<h3>Nome do Evento 1</h3>
-								<p class="data">12/12/2022</p>
-								<p class="local">Local do Evento</p>
-								<p class="descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-								<a href="#" class="ver-mais">Ver detalhes do evento</a>
+								<div class="d-flex justify-content-between flex-column">
+									<div class="header-evento">
+										<h3>Nome do Evento 1</h3>
+										<p class="data">12/12/2022</p>
+										<p class="local">Local do Evento</p>
+									</div>
+									<p class="descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+									<a href="#" class="ver-mais">Ver detalhes do evento</a>
+								</div>
 							</div>
 							<div class="carousel-item evento-detalhes">
-								<h3>Nome do Evento 2</h3>
-								<p class="data">12/12/2022</p>
-								<p class="local">Local do Evento</p>
-								<p class="descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
-								<a href="#" class="ver-mais">Ver detalhes do evento</a>
+								<div class="d-flex justify-content-between flex-column">
+									<div class="header-evento">
+										<h3>Nome do Evento 2</h3>
+										<p class="data">12/12/2022</p>
+										<p class="local">Local do Evento</p>
+									</div>
+									<p class="descricao">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+									<a href="#" class="ver-mais">Ver detalhes do evento</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -514,7 +524,6 @@
 	    });
 
 	    $('.mega-menu a').on('click', function(e){
-	    	//$('a.ativo').removeClass('ativo');
 	    	$(this).toggleClass('ativo');
 	    	e.preventDefault();
 	    });
