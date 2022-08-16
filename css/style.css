@@ -287,15 +287,15 @@ footer {
 	color: #001c90;
 }
 
-.mega-menu .menu-level-0{
+.mega-menu .menu{
 	position: relative;
 }
 
-.mega-menu .menu-level-0 li{
+.mega-menu .menu li{
 	width: 100%;	
 }
 
-.mega-menu .menu-level-0 > li > a.nav-link{
+.mega-menu .menu > li > a.nav-link{
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	border-radius: 0 !important;
 	color: #001c90;
@@ -305,12 +305,12 @@ footer {
 	width: 100%;
 }
 
-.mega-menu .menu-level-0 a.nav-link:hover{
+.mega-menu .menu a.nav-link:hover{
 	border-color: #000;
 	color: #000;
 }
 
-.mega-menu .menu-level-0 a.nav-link.active{
+.mega-menu .menu a.nav-link.active{
 	background: #d6d6d6;
 	border-bottom: rgba(0, 0, 0, 1) !important;
 	color: #000;
@@ -357,8 +357,9 @@ footer {
 }
 
 .mega-menu .nav-link{
+	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	display: flex;
-	font-size: 15px;
+	font-size: 13px;
 }
 
 /* Redes Sociais */
