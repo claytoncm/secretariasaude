@@ -343,6 +343,7 @@ footer {
 }
 
 .mega-menu .menu-level-1 > li a.nav-link{
+	border-bottom: 0;
 	font-size: 13px;
 	padding: 5px 0;
 }
@@ -368,6 +369,7 @@ footer {
 .mega-menu .menu-level-2,
 .mega-menu .menu-level-3{
 	display: none;
+	padding: 0 15px;
 }
 
 .mega-menu .ativo + ul{
@@ -378,6 +380,7 @@ footer {
 	border-bottom: 1px solid rgba(0, 0, 0, .1);
 	display: flex;
 	font-size: 13px;
+	font-weight: 600;
 }
 
 /* Redes Sociais */
@@ -598,6 +601,7 @@ a.bt-download{
 	color: #001c90;
 }
 
+.header-gestor .cargo,
 .fala-gestor .cargo{
 	color: #001c90;
 	font: 18px 'Flexo', sans-serif;
@@ -613,6 +617,11 @@ a.bt-download{
 	margin-right: 15px;
 	max-height: 40px;
 	width: auto;
+}
+
+.titulo-fala-gestor{
+	font-size: 30px;
+	text-align: center;
 }
 
 /* Eventos */
