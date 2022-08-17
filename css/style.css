@@ -110,7 +110,7 @@ a.ver-mais{
 	color: #055855;
 }
 
-.verde-boletim{
+.verde-saude{
 	color: #66b800;
 }
 
@@ -571,7 +571,7 @@ a.bt-download{
 	margin-bottom: 15px;
 }
 
-/* Especial Saúde */
+/* + Saúde para você */
 
 .especial-saude{
 	color: #3fbb00;
@@ -596,6 +596,22 @@ a.bt-download{
 .especial-saude .link-especial-saude{
 	color: #3fbb00;
 	text-decoration: none;
+}
+
+.mais-saude ul{
+	padding: 0;
+}
+.mais-saude li{
+	list-style: none;
+}
+
+.mais-saude a{
+	color: #66b800;
+	text-decoration: none;
+}
+
+.mais-saude a:hover{
+	text-decoration: underline;
 }
 
 /* Fala Gestor */
