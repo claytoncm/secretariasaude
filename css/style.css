@@ -100,6 +100,24 @@ a.ver-mais{
 	font-weight: 600;
 }
 
+/* Cores */
+
+.azul{
+	color: #001c90;
+}
+
+.verde{
+	color: #055855;
+}
+
+.verde-boletim{
+	color: #66b800;
+}
+
+.laranja{
+	color: #fc8200;
+}
+
 /* Bootstrap - 5 colunas */
 
 .col-15 {
@@ -466,6 +484,27 @@ footer {
 }
 
 .comunicados a{
+	color: #001c90;
+}
+
+/* Comunicados - página */
+
+h3.titulo-veja-tambem{
+	font-size: 24px;
+	font-weight: 600;
+}
+
+a.bt-download{
+	display: block;
+	font: 18px 'Flexo', sans-serif;
+	font-weight: 600;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+.pagination a{
+	background: 0;
 	color: #001c90;
 }
 
