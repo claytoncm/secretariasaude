@@ -633,6 +633,10 @@ a.bt-download{
 	color: #000;
 }
 
+.fala-gestor h2 a{
+	text-decoration: none;
+}
+
 .fala-gestor h2 img{
 	margin-right: 15px;
 	max-height: 40px;
@@ -652,17 +656,30 @@ a.bt-download{
 }
 
 .eventos .data,
-.eventos .local{
+.eventos .local,
+.evento-detalhes .data,
+.evento-detalhes .local{
 	color: #ff8400;
 	font: 18px 'Flexo', sans-serif;
 	font-weight: 500;
 	margin: 0;
 }
 
+.evento-detalhes h3,
+.evento-detalhes h3 a,
+.eventos h2 a{
+	color: #ff8400;
+	text-decoration: none;
+}
+
 .eventos h2 img{
 	margin-right: 15px;
 	max-height: 40px;
 	width: auto;
+}
+
+.evento-detalhes{
+	font-family:'Flexo', sans-serif;
 }
 
 /* Footer */
