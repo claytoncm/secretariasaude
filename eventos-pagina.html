@@ -78,7 +78,7 @@
 		<div class="container-xxl">
 			<nav class="navbar navbar-expand-lg navbar-light nav-principal">
 				<div class="container-fluid">
-					<button class="navbar-toggler d-flex" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Mega Menu">
+					<button class="navbar-toggler d-flex bt-mega" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsPrincipal" aria-controls="navbarsPrincipal" aria-expanded="false" aria-label="Mega Menu">
 				        <span class="navbar-toggler-icon"></span>
 				        <span class="navbar-toggler-name">Estrutura SMS</span>
 				    </button>
@@ -201,7 +201,7 @@
 
 	<main class="container-xxl">
 
-		<div class="row mt-3 mb-3">
+		<div class="row my-3">
 			<div class="eventos">
 				<h2 class="laranja"><img src="img/eventos.png">Eventos</h2>
 			</div>
@@ -209,6 +209,7 @@
 			<div class="col-12 border rounded bg-light p-4">
 
 				<h3 class="titulo-fala-gestor laranja">Título do evento</h3>
+				<h4 class="text-center info-localizacao">12/12/2022 <span>Local do Evento</span></h4>
 
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nec lorem a dui sollicitudin semper. Aenean sollicitudin volutpat odio, mollis consequat nisl fringilla quis. Phasellus turpis elit, pellentesque eu ligula sed, pretium blandit metus. Fusce ornare mollis lacinia. Praesent semper arcu vel dictum maximus. Pellentesque lacinia diam dui, eu ultrices urna vestibulum nec. Curabitur sit amet leo scelerisque, euismod massa ac, porta dui. Integer sit amet nisi convallis, lobortis elit a, dapibus augue. Aenean suscipit fringilla diam, sed consectetur ligula facilisis rutrum. Vestibulum et venenatis tellus. In fringilla velit a sapien dignissim, eget porta metus ultrices. Donec eu blandit velit.</p>
 
@@ -230,7 +231,7 @@
 	<script src="assets/dist/js/jquery.js" type="text/javascript"></script>
 	<script>
 	$(document).ready(function(){
-	    $('.navbar-toggler').on('click', function(e){
+	    $('.bt-mega').on('click', function(e){
 	        $('html').toggleClass('menu-active');
 	        e.preventDefault();
 	    });

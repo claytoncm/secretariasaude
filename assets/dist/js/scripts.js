@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.navbar-toggler').on('click', function(e){
+    $('.bt-mega').on('click', function(e){
         $('html').toggleClass('menu-active');
         e.preventDefault();
     });

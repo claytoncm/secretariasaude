@@ -682,6 +682,18 @@ a.bt-download{
 	font-family:'Flexo', sans-serif;
 }
 
+h4.info-localizacao{
+	color: #ff8400;
+	font-size: 20px;
+}
+h4.info-localizacao span{
+	display: block;
+}
+
+.ver-mais.laranja:hover{
+	color: #ff8400;
+}
+
 /* Footer */
 
 .footer{
